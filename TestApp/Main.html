@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/master.css" rel="stylesheet" />
+    <script src="Scripts/angular.min.js"></script>
+    <script src="sampleApp.js"></script>
+    <meta charset="utf-8" />
+    <title>Style Guide</title>
+</head>
+<body ng-app="sampleApp">
+    <div ng-controller="sampleAppController">
+        <div class="row" style="background-color:aquamarine;height:100px;"></div>
+        <div class="row" style="height:550px;">
+            <div class="col-1" style="background-color:aquamarine;"></div>
+            <div class="col-4" ng-include="'Controls.html'"></div>
+            <div class="col-1" style="background-color:aquamarine;"></div>
+            <div class="col-5" ng-include="'backGroundColor.html'"></div>
+            <div class="col" style="background-color:aquamarine;"></div>
+        </div>
+        <div class="row" style="background-color:aquamarine;height:100px;"></div>
+    </div>
+</body>
+</html>

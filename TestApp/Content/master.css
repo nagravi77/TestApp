@@ -1,0 +1,83 @@
+h1 {
+  color: #FF7F50;
+}
+h3 {
+  color: #800080;
+}
+h4 {
+  color: #ff0000;
+}
+.myContent {
+  background-color: #ffffff;
+}
+input[type=text] {
+  font-family: Arial;
+}
+.ctrlDiv {
+  text-align: center;
+  margin-top: 25px;
+}
+.sameSize {
+  width: 200px;
+}
+.activeRadio:checked:before {
+  content: "";
+  display: block;
+  position: relative;
+  top: 3px;
+  left: 3px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #9CFF93;
+}
+.bigDiv {
+  height: 185px;
+  margin: 25px;
+  border-radius: 20px;
+  position: relative;
+}
+.bigDiv#bgcolor1 {
+  background-color: #9cff93;
+}
+.bigDiv#bgcolor2 {
+  background-color: #FFE9AF;
+}
+.bigDiv#bgcolor3 {
+  background-color: #262630;
+}
+.smallDiv {
+  height: 100px;
+  margin: 25px;
+  border-radius: 20px;
+  position: relative;
+}
+.smallDiv#bgcolor4 {
+  background-color: #7AC471;
+}
+.smallDiv#bgcolor5 {
+  background-color: #FFD366;
+}
+.smallDiv#bgcolor6 {
+  background-color: #CDCDD8;
+}
+.ColorName {
+  position: absolute;
+  bottom: 30px;
+  left: 10px;
+}
+.colorValue {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.btnStyle {
+  text-align: center;
+  background-color: #9CFF93;
+  width: 135px;
+}
+.btnDiv {
+  border-style: solid;
+  height: auto;
+  width: auto;
+}
